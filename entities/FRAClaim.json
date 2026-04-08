@@ -1,0 +1,97 @@
+{
+  "name": "FRAClaim",
+  "type": "object",
+  "properties": {
+    "claim_id": {
+      "type": "string",
+      "description": "Unique claim identifier"
+    },
+    "claimant_name": {
+      "type": "string"
+    },
+    "district": {
+      "type": "string"
+    },
+    "mandal": {
+      "type": "string"
+    },
+    "village": {
+      "type": "string"
+    },
+    "claim_type": {
+      "type": "string",
+      "enum": [
+        "individual",
+        "community"
+      ],
+      "default": "individual"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "filed",
+        "pending_sdlc",
+        "pending_dlc",
+        "approved",
+        "rejected",
+        "appealed"
+      ],
+      "default": "filed"
+    },
+    "land_area_acres": {
+      "type": "number"
+    },
+    "land_type": {
+      "type": "string",
+      "enum": [
+        "agriculture",
+        "habitation",
+        "forest_produce",
+        "grazing",
+        "water_bodies",
+        "other"
+      ]
+    },
+    "filing_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "approval_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "tribe_community": {
+      "type": "string"
+    },
+    "gram_sabha_resolution": {
+      "type": "boolean",
+      "default": false
+    },
+    "sdlc_recommendation": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "recommended",
+        "not_recommended"
+      ],
+      "default": "pending"
+    },
+    "dlc_decision": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "approved",
+        "rejected"
+      ],
+      "default": "pending"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "claimant_name",
+    "district",
+    "claim_type"
+  ]
+}

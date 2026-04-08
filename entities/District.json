@@ -1,0 +1,59 @@
+{
+  "name": "District",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "District name in Telangana"
+    },
+    "code": {
+      "type": "string",
+      "description": "District code"
+    },
+    "total_claims_filed": {
+      "type": "number",
+      "default": 0
+    },
+    "individual_claims": {
+      "type": "number",
+      "default": 0
+    },
+    "community_claims": {
+      "type": "number",
+      "default": 0
+    },
+    "claims_approved": {
+      "type": "number",
+      "default": 0
+    },
+    "claims_rejected": {
+      "type": "number",
+      "default": 0
+    },
+    "claims_pending": {
+      "type": "number",
+      "default": 0
+    },
+    "total_land_distributed_acres": {
+      "type": "number",
+      "default": 0
+    },
+    "forest_area_sq_km": {
+      "type": "number",
+      "default": 0
+    },
+    "tribal_population": {
+      "type": "number",
+      "default": 0
+    },
+    "latitude": {
+      "type": "number"
+    },
+    "longitude": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "name"
+  ]
+}
