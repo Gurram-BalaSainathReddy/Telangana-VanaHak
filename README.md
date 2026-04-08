@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 **Welcome to your Base44 project** 
 
 **About**
@@ -37,3 +38,7 @@ Open [Base44.com](http://Base44.com) and click on Publish.
 Documentation: [https://docs.base44.com/Integrations/Using-GitHub](https://docs.base44.com/Integrations/Using-GitHub)
 
 Support: [https://app.base44.com/support](https://app.base44.com/support)
+=======
+# Telangana-VanaHak
+“It is an AI-powered WebGIS platform that monitors FRA implementation by mapping claims and using analytics to improve transparency and decision-making.”
+>>>>>>> 4b713bea8a58f9b0c7866fb7815e486205e28260
